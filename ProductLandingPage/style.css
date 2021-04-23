@@ -1,0 +1,119 @@
+/* Global Styles */
+html,
+body {
+  background-color: #eeeeee;
+}
+.container {
+  max-width: 90vw;
+  width: 100%;
+  margin: 20px auto;
+}
+/* Global Styles */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header-img {
+  width: 40vw;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+}
+.nav-links .nav-link {
+  text-decoration: none;
+  color: #3e3e3e;
+}
+.nav-links .nav-link:hover {
+  cursor: pointer;
+  color: #f1c40f;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 0px;
+}
+h2 {
+  margin-bottom: 0px;
+}
+#email {
+  max-width: 275px;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 30px;
+  padding: 0px 10px;
+}
+#submit,
+.btn {
+  background-color: #f1c40f;
+  border: none;
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: flex;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  color: darkorange;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  width: 80vw;
+}
+.explained {
+  text-align: center;
+  margin: 40px 0px;
+}
+#video {
+  width: 50vw;
+  height: 350px;
+}
+#pricing {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+}
+.product {
+  border: 1px solid black;
+  width: 25vw;
+  /* padding: 10px; */
+  margin: 0 10px;
+  text-align: center;
+}
+ol {
+  list-style: none;
+  padding: 0;
+}
+.level {
+  background-color: #888;
+  height: 30px;
+  padding-top: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+}
